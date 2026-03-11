@@ -11,7 +11,7 @@ from pyrogram.types import (
 )
 from pyrogram.enums import ChatMemberStatus
 from pytgcalls import PyTgCalls, idle
-from pytgcalls.types.input_stream import AudioPiped
+from pytgcalls.types import AudioPiped, AudioQuality
 from pytgcalls.types.input_stream.quality import HighQualityAudio
 import yt_dlp
 
